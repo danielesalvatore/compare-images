@@ -16,6 +16,7 @@ const cleanFolders = () => {
             fs.unlinkSync(OUTPUT_FOLDER + file)
 
         });
+    console.log("Output folder cleared successfully");
 };
 
 const init = () => {
