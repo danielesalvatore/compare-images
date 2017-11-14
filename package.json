@@ -1,0 +1,20 @@
+{
+  "name": "compare-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/danielesalvatore/compare-images.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/danielesalvatore/compare-images#readme",
+  "dependencies": {
+    "canvas": "^1.6.7",
+    "resemblejs": "^2.2.6"
+  }
+}
