@@ -14,3 +14,7 @@
 - in index.js define the master image
 - run with ```node .```
 - browse the output folder
+
+## Result of comparison
+
+![Result](/result.jpg)
