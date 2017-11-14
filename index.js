@@ -5,18 +5,6 @@ const OUTPUT_FOLDER = "./output/";
 const MASTER = "win10_chrome_50.0.jpg";
 
 const cleanFolders = () => {
-    fs.readdirSync(SCREENSHOT_FOLDER)
-        .forEach(file => {
-
-            // skip not .keepme
-            if (file === ".keepme") {
-                return;
-            }
-
-            fs.unlinkSync(path)
-
-        });
-
     fs.readdirSync(OUTPUT_FOLDER)
         .forEach(file => {
 
@@ -25,7 +13,7 @@ const cleanFolders = () => {
                 return;
             }
 
-            fs.unlinkSync(path)
+            fs.unlinkSync(OUTPUT_FOLDER + file)
 
         });
 };

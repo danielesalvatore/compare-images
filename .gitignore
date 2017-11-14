@@ -4,3 +4,4 @@ output/*.jpg
 screenshots/*.jpg
 .gitignore
 node_modules/
+*.DS_Store
